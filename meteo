@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo en Direct</title>
+    <style>
+        /* Styles CSS pour la mise en page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        .weather-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .weather-card .location {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .weather-card .temperature {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .weather-card .description {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .weather-card .icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Météo en Direct</h1>
+        
+        <div class="weather-card">
+            <div class="location">Paris, France</div>
+            <div class="temperature">25°C</div>
+            <div class="description">Ensoleillé</div>
+            <img class="icon" src="sun.png" alt="Ensoleillé">
+        </div>
+        
+        <div class="weather-card">
+            <div class="location">New York, USA</div>
+            <div class="temperature">20°C</div>
+            <div class="description">Nuageux</div>
+            <img class="icon" src="cloud.png" alt="Nuageux">
+        </div>
+        
+        <div class="weather-card">
+            <div class="location">Tokyo, Japon</div>
+            <div class="temperature">30°C</div>
+            <div class="description">Ensoleillé</div>
+            <img class="icon" src="sun.png" alt="Ensoleillé">
+        </div>
+    </div>
+</body>
+</html>
